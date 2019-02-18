@@ -130,7 +130,7 @@
             </page-item>
             <page-item
               v-on:click.native="changePage(activePage+1)"
-              :disabled="activePage === pages.length-1 ? true : false"
+              :disabled="activePage === pages.length-1 ? false : true"
             >
               Next
             </page-item>
